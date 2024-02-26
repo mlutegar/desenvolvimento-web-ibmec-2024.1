@@ -1,0 +1,29 @@
+Nome: Michel Lutegar D'Orsi Pereira
+Turma: Desenvolvimento Web - Segunda 7:30 a 11:40
+
+Pedido:
+1. Encontre as páginas web de referência de cada uma das ferramentas que
+foram verificadas.
+2. Discuta a utilidade de cada ferramenta e como ela se relaciona com o
+conteúdo do curso.
+3. Use o vscode para fazer um arquivo de texto contendo:
+• os endereços das páginas de referência das ferramentas
+• a identificação da relação entre as páginas de referência e o conteúdo da
+disciplina
+
+Resposta:
+Git
+- Página de referência: https://git-scm.com/docs
+Ferramenta utilizada para fazer o versionamento dos códigos web feito em sala de aula. Iremos usar para aprendermos a desenvolver projetos web em conjunto, ou para disponibilizar nossos projetos na internet para visualização do código. A página de referência será importante, pois poderemos se guiar por ele para usar os comandos certos de versionamento.
+
+VSCode
+- Página de referência: https://code.visualstudio.com/docs
+Editor de texto usado para desenvolver os códigos web. Iremos usar para fazer o desenvolvimento web. A página de referência será importante, pois poderemos usar para tirar as nossas dúvidas em relação a esse editor de texto.
+
+Python
+- Página de referência: https://www.python.org/doc/ e https://docs.python.org/3/library/http.server.html
+É uma linguagem de programação utilizada no desenvolvimento web, como uma forma de rodar uma aplicação web sem a necessidade de criar e configurar um servidor web como o Apache e o NGINX. Iremos usar para rodar a nossa aplicação web.  As páginas de referência será importante para podemos executar os comandos certos na hora de rodar a nossa aplicação.
+
+Sqlitebrowser
+- Página de referência: https://github.com/sqlitebrowser/sqlitebrowser/wiki
+É uma ferramenta de interface usada para criar e editar arquivos de banco de dados compativeis com o SQLite. Iremos usar para manipular o banco de dados da nossa aplicação web. A página de referência será importante para podemos se guiar em como usar a ferramento sqlitebroser e conseguir manipular o banco de dados usado em nosso projeto web.
