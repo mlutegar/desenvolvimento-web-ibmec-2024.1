@@ -2,21 +2,21 @@
 <html>
     <head>
         <title>Teste JavaScript</title>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="style.css">
     </head>
-
-    <style>
-        button{
-            color: blue;
-            font-weight: 900;
-        }
-    </style>
-
     <body>
         <script>
-            function teste(){
-            document.write('Apenas um teste');
+            function teste1(){
+                document.write('Apenas um teste');
+            }
+
+            function teste2(){
+                var nome = prompt("Qual é o seu nome?");
+                alert("Olá " + nome + ", prazer em conhecê-lo!");
             }
         </script>
-        <button onclick="teste()">Aperte aqui.</button>
+        <button onclick="teste1()">Aperte aqui, para escrever o html</button>
+        <button onclick="teste2()">Aperte aqui, para surpresa.</button>
     </body>
 </html>
