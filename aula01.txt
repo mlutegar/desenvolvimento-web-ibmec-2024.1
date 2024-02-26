@@ -1,5 +1,7 @@
-Nome: Michel Lutegar D'Orsi Pereira
-Turma: Desenvolvimento Web - Segunda 7:30 a 11:40
+Nome da disciplina: Desenvolvimento Web
+Nome do aluno: Michel Lutegar D'Orsi Pereira
+Período do aluno: 4º período
+Ano atual: 2024.1
 
 Pedido:
 1. Encontre as páginas web de referência de cada uma das ferramentas que
