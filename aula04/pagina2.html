@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta author="Michel Lutegar">
+        <title>Aula de CSS</title>
+
+        <!--FONTES-->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Madimi+One&family=Sree+Krushnadevaraya&display=swap" rel="stylesheet">
+
+        <!--CSS-->
+        <link rel="stylesheet" href="css/style.css">
+    </head>
+
+    <style>
+        body {
+            width: 500px;
+            margin: 0 auto;
+        }
+        p {
+            background-color: rgb(207,232,220);
+            border: 2px solid rgb(79,185,227);
+            padding: 10px;
+            margin: 10px;
+            border-radius: 5px;
+        }
+        .positioned_relative {
+            position: relative;
+            background: rgba(255,84,104,.3);
+            border: 2px solid rgb(255,84,104);
+            top: 30px;
+            left: 30px;
+        }
+        .positioned_absolute {
+            position: absolute;
+            background: rgba(255,84,104,.3);
+            border: 2px solid rgb(255,84,104);
+            top: 30px;
+            left: 30px;
+        }
+        .positioned_fixed {
+            position: fixed;
+            background: rgba(255,84,104,.3);
+            border: 2px solid rgb(255,84,104);
+            top: 30px;
+            left: 30px;
+        }
+    </style>
+
+    <body>
+        <header>
+            <h1>Titulo da página</h1>
+            <nav>
+                <menu>
+                    <li><a href="pagina.html">Aula de HTML</a></li>
+                    <li><a href="pagina2.html">Aula de CSS</a></li>
+                    <li><a href="pagina3.html">Trabalho do Mozilla</a></li>
+                </menu>
+            </nav>
+        </header>
+
+        <main>
+            <!--POSICIONAMENTO 1-->
+            <div>
+                <h1>Positioning</h1>
+                <p>I am a basic block level element.</p>
+                <p class="positioned">I am a basic block level element.</p>
+                <p>I am a basic block level element.</p>
+            </div>
+        </main>
+    </body>
+</html>
