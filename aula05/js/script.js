@@ -58,4 +58,13 @@ console.log("Adicionando um elemento no final do array: " + array + "\n");
 
 // Removendo o último elemento do array
 array.pop();
-console.log("Removendo o último elemento do array: " + array + "\n");
+console.log("Removendo o último elemento do array: " + array + "\n");]
+
+// Adicionando um elemento no início do array
+array.unshift(0);
+console.log("Adicionando um elemento no início do array: " + array + "\n");
+
+// Removendo o primeiro elemento do array
+array.shift();
+console.log("Removendo o primeiro elemento do array: " + array + "\n");
+
