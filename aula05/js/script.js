@@ -61,16 +61,19 @@ console.log("Recuperando o elemento de índice 2: " + array[2] + "\n");
 // Adicionando um elemento no final do array
 array.push(6);
 console.log("Adicionando o elemento 6 no final do array: " + array + "\n");
+console.log("Tamanho do array: " + array.length + "\n");
 
 // Removendo o último elemento do array
-let removedElement = array.pop();
-console.log("Removendo o último elemento do array (valor removido: " + removedElement + "): " + array + "\n");
+let elementoRemovido = array.pop();
+console.log("Removendo o último elemento do array (valor removido: " + elementoRemovido + "): " + array + "\n");
+console.log("Tamanho do array: " + array.length + "\n");
 
 // Adicionando um elemento no início do array
 array.unshift(0);
 console.log("Adicionando o elemento 0 no início do array: " + array + "\n");
+console.log("Tamanho do array: " + array.length + "\n");
 
 // Removendo o primeiro elemento do array
-let shiftedElement = array.shift();
-console.log("Removendo o primeiro elemento do array (valor removido: " + shiftedElement + "): " + array + "\n");
-
+let elementoShiftado = array.shift();
+console.log("Removendo o primeiro elemento do array (valor removido: " + elementoShiftado + "): " + array + "\n");
+console.log("Tamanho do array: " + array.length + "\n");
