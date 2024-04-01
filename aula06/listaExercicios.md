@@ -131,9 +131,9 @@ O elemento `<a href=”a”></a>`
 Exemplo:
 ```css
 h1{
-    declaração1;
-    declaração2;
-    declaração3;
+    declaracao1;
+    declaracao2;
+    declaracao3;
     …
 }
 ```
@@ -186,11 +186,14 @@ Exemplo:
 
 Esse três conceito se refere ao comportamento dos elementos no espaço ao redor dos conteúdos e dos próprios elementos.
 
-- “margin”: É o espaço entre o limite externo de um elemento com os elementos vizinhos. Ele define a distância desse espaço.
+- “margin”: É o espaço externo de um elemento. Ele define a distância desse espaço.
 
-Exemplo: margin: 10px;
+Exemplo:
+```
+margin: 10px;
+```
 
-- “border”: É a linha que fica envolta do conteúdo do elemento e da sua área de preenchimento. É possível atribuir valores como estilo, largura e cor para a visualização dessa borda.
+- “border”: É a linha que circunda o elemento e da sua área de preenchimento. É possível atribuir valores como estilo, largura e cor para a visualização dessa borda.
 
 Exemplo:
 
@@ -266,7 +269,7 @@ Bloco é todo o código que fica entre as chaves “{}”
 
 ## 23 Quais as diferenças entre as  de variáveis em JavaScript usando **let**, **var** e **const**?
 
-    declarações
+Todos são declarações de variáveis em JavaScript, mas com algumas diferenças:
 
 - “let”: é usado para declarar uma variável local dentro de um bloco. Ela limita o seu escopo ao bloco em que está contida.
 - “var”: é usado para declarar uma variável global independentemente do bloco em que esteja. Isso significa que ela pode ser acessada de qualquer lugar.
