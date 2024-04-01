@@ -32,7 +32,7 @@ Exemplos de outras plataformas web: Bitbucket, Gitlab. O uso do gitlab é mais p
     </body>
 </html>
 ```
-Não precisa do <!doctype html>
+Não precisa do ```<!doctype html>```
 
 ## 6 O que é uma “pilha de protocolos”, no contexto da internet?
 É a organização lógica dos protocolos de comunicação em todos os níveis de abstrações da camada TCP/IP, para a camada de aplicação, de transporte, de rede, de enlace e o físico. Com a premissa de que a camada de baixo presta um serviço para os protocolos de camada superior.
@@ -74,36 +74,36 @@ SSL é um camada de segurança para os protocolo de transporte, pode-se dizer qu
 
 ## 11 Em um documento **html**, quantos são os *filhos* do nó raiz? Há limite para o número de *descendentes* do nó raiz? Justifique sua resposta
 
-O nó da raiz há 2 filhos, que são o <head> e o <body>. Os filhos do nó raiz as tags que são abertas logo abaixo da tag <html>, e os descendentes são todas as outras tags são abertas dentro do <head> e <body>.
+O nó da raiz há 2 filhos, que são o ```<head>``` e o ```<body>```. Os filhos do nó raiz as tags que são abertas logo abaixo da tag ```<html>```, e os descendentes são todas as outras tags são abertas dentro do ```<head>``` e ```<body>```.
 
 ## 12 Ao construir documentos **html**, é recomendado que usemos marcação que forneça significado (semântica) para os componentes do documento. Sendo assim, cite ao menos 5 tipos de elementos de marcação ou organização de conteúdo, além de 5 tipos de elementos de marcação semântica, explicando o significado de todos eles.
 - Elementos de marcação ou organização de conteúdo
-1. ```html <h1>-<h6> ```: usado para marcar títulos e subtítulos dos documentos.
-2. <span>: é um container genérico inline, usado para agrupar elementos para estilizar em conjunto, normalmente é usado para pequenas partes de texto dentro de um parágrafo.
-3. <div>: é um container genérico usado para controlar o fluxo do conteúdo, e agrupar uma certa quantidade de elementos. É comumente usado para aplicar estilo CSS e organizar o layout da página.
-4. <header>: Define o cabeçalho de um documento ou de uma seção. Geralmente contém elementos de navegação, logotipos, títulos e outros elementos relacionados ao cabeçalho.
-5. <footer>: Define o rodapé de um documento ou de uma seção. Normalmente contém informações de copyright, links para páginas relacionadas e outros elementos de finalização.
+1. ```<h1>-<h6>```: usado para marcar títulos e subtítulos dos documentos.
+2. ```<span>```: é um container genérico inline, usado para agrupar elementos para estilizar em conjunto, normalmente é usado para pequenas partes de texto dentro de um parágrafo.
+3. ```<div>```: é um container genérico usado para controlar o fluxo do conteúdo, e agrupar uma certa quantidade de elementos. É comumente usado para aplicar estilo CSS e organizar o layout da página.
+4. ```<header>```: Define o cabeçalho de um documento ou de uma seção. Geralmente contém elementos de navegação, logotipos, títulos e outros elementos relacionados ao cabeçalho.
+5. ```<footer>```: Define o rodapé de um documento ou de uma seção. Normalmente contém informações de copyright, links para páginas relacionadas e outros elementos de finalização.
 - Elementos de marcação semântica
-1. <em>: usado para indicar ao documento que aquele elemento deve receber ênfase.
-2. <strong>: usado para indicar ao documento que aquele elemento tem uma grande importância.
-3. <del>: usado para indicar ao documento que aquele elemento foi apagado do documento.
-4. <ins>: usado para indicar ao documento que aquele elemento foi demarcado.
-5. <a>: usado para indicar que o elemento é um hyperlink.
+1. ```<em>```: usado para indicar ao documento que aquele elemento deve receber ênfase.
+2. ```<strong>```: usado para indicar ao documento que aquele elemento tem uma grande importância.
+3. ```<del>```: usado para indicar ao documento que aquele elemento foi apagado do documento.
+4. ```<ins>```: usado para indicar ao documento que aquele elemento foi demarcado.
+5. ```<a>```: usado para indicar que o elemento é um hyperlink.
 
 ## 13 Qual elemento é utilizado para que um documento **html** capture informações dos usuários?
 
-O formulário <form>, junto com a tag <input>.
+O formulário ```<form>```.
 
 ## 14 Qual elemento é utilizado para permitir a navegação entre diferentes documentos **html**?
 
-O elemento <a href=”a”></a>
+O elemento ```<a href=”a”></a>```
 
 ## 15 Enumere ao menos cinco elementos utilizados em formulários **html** explicando sua
-- <input>: É usado para criar campos de entrada em um formulário.
-- <select>: É usado para criar menus suspensos (drop-down) em um formulário, permitindo a definição de diversas opções em que o usuário pode escolher uma.
-- <button>: usado para criar elemento interativo para o usuário, em que pode ser ativado por teclado, dedo ou um comando de voz.
-- <textarea>: É usado para criar uma área de texto de várias linhas em um formulário. É útil para permitir que os usuários insiram texto mais longo, como comentários, mensagens ou feedback.
-- <label>: é usado para associar um rótulo a um elemento de formulário.
+- ```<input>```: É usado para criar campos de entrada em um formulário.
+- ```<select>```: É usado para criar menus suspensos (drop-down) em um formulário, permitindo a definição de diversas opções em que o usuário pode escolher uma.
+- ```<button>```: usado para criar elemento interativo para o usuário, em que pode ser ativado por teclado, dedo ou um comando de voz.
+- ```<textarea>```: É usado para criar uma área de texto de várias linhas em um formulário. É útil para permitir que os usuários insiram texto mais longo, como comentários, mensagens ou feedback.
+- ```<label>```: é usado para associar um rótulo a um elemento de formulário.
 
 ## 16 ****Explique o que são e para que são utilizados os seguintes atributos **html:**
     1. class
@@ -123,6 +123,8 @@ O elemento <a href=”a”></a>
 
 É um princípio do desenvolvimento web, que faz com que as páginas da web funcionem corretamente em uma variedade de navegadores e dispositivos, mesmo que nem todas as funcionalidades estejam disponíveis. Tudo é feito, para que o código seja executado, mesmo que haja erros nele código. Isso se refere também a questão da evolução da tecnologia, a degradação graciosa faz com que um aparelho que não possua as novas tecnologias, consiga rodar o código. O objetivo da degradação elegante é garantir que uma página web seja acessível e utilizável por todos os usuários.
 
+- Resposta do professor: Princípio que baliza a capacidade da tecnologia da web de abrir mão de elementos e manter a coreência e o sentido dos documentos. Isso viabiliza o funcionamento da tecnologia em dispositiovs de diferentes capacidades e a torna resiliente.
+
 ## 18 Diferencie e caracterize os conceitos de regra, seletor e declaração no contexto do
 
 - Regra: É o conjunto completo, em que é constituído pelo seletor e um conjunto de declarações.
@@ -137,9 +139,12 @@ h1{
 ```
 
 - Seletor: É o nome do elemento html no começo da regra, em que indica qual elemento vai ser assumir aquelas declarações. Ele pode especificar o elemento HTML específico, uma classe, um identificador, um atributo ou uma combinação desses.
-Exemplo: h1, .classe, #id, …
+Exemplo:
+```css
+h1, .classe, #id, …
+```
 
-- Declaração: é uma propriedade de estilo associada a um valor. É o que define como os elementos selecionados pelo seletor devem ser estilizados.
+- Declaração: é uma propriedade (chave da linguagem) de estilo associada a um valor (par chave-valor). É o que define como os elementos selecionados pelo seletor devem ser estilizados.
 Ex:
 ```css
 color: red;
