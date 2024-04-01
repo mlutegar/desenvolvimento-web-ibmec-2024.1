@@ -78,7 +78,7 @@ O nó da raiz há 2 filhos, que são o <head> e o <body>. Os filhos do nó raiz 
 
 ## 12 Ao construir documentos **html**, é recomendado que usemos marcação que forneça significado (semântica) para os componentes do documento. Sendo assim, cite ao menos 5 tipos de elementos de marcação ou organização de conteúdo, além de 5 tipos de elementos de marcação semântica, explicando o significado de todos eles.
 - Elementos de marcação ou organização de conteúdo
-1. <h1>-<h6>: usado para marcar títulos e subtítulos dos documentos.
+1. ```html <h1>-<h6> ```: usado para marcar títulos e subtítulos dos documentos.
 2. <span>: é um container genérico inline, usado para agrupar elementos para estilizar em conjunto, normalmente é usado para pequenas partes de texto dentro de um parágrafo.
 3. <div>: é um container genérico usado para controlar o fluxo do conteúdo, e agrupar uma certa quantidade de elementos. É comumente usado para aplicar estilo CSS e organizar o layout da página.
 4. <header>: Define o cabeçalho de um documento ou de uma seção. Geralmente contém elementos de navegação, logotipos, títulos e outros elementos relacionados ao cabeçalho.
