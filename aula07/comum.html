@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+ <head>
+ <title>Counter App</title>
+ <meta charset="UTF-8" />
+ </head>
+ <body>
+ <div>
+ <button id="increment">+ 1</button>
+ <span id="count">0</span>
+ <button id="decrement">- 1</button>
+ </div>
+ <script>
+  const increment =
+          document.querySelector("#increment");
+  const count = document.querySelector("#count");
+  const decrement =
+          document.querySelector("#decrement");
+  increment.addEventListener("click", () => {
+   count.innerText = Number(count.innerText) + 1;
+  });
+  decrement.addEventListener("click", () => {
+   count.innerText = Number(count.innerText) - 1;
+  });
+ </script>
+ </body>
+</html>
