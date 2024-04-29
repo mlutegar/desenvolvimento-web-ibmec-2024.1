@@ -1,0 +1,63 @@
+/*
+Exercício 2
+
+- Fazer uma grid com 4 colunas e 3 linhas que ocupe toda a largura da tela e tenha 300px de altura (mais padding e gap a gosto), com cor amarela
+- Faça um elemento div com cor de fundo preta
+- Faça um elemento div com cor de fundo branca
+- Usando as propriedades grid-area e grid-template-area faça com que as seguintes configurações aconteçam:
+a) até 1024px de largura
+---------------------
+| p  | p  |    |    |
+-----+----+----+-----
+| p  | p  |    |    |
+-----+----+----+-----
+|    | b  | b  | b  |
+---------------------
+
+b) a partir de 1024px de largura
+---------------------
+| p  | p  | p  | p  |
+-----+----+----+-----
+|    |    |    |    |
+-----+----+----+-----
+| b  | b  | b  | b  |
+---------------------
+
+- os espaços marcados com *p* devem ser ocupados pela div preta
+- os espaços marcados com *b* devem ser ocupados pela div branca
+
+*/
+
+#container{
+    display: grid;
+    grid-template-areas:
+        "p p . ."
+        "p p . ."
+        ". b b b"
+    ;
+    grid-template-columns: repeat(4, auto);
+    grid-template-rows: repeat(3, 300px);
+    background-color: yellow;
+    gap: 3rem;
+    padding: 3rem;
+}
+
+#preto{
+    grid-area: p;
+    background-color: black;
+}
+
+#branco{
+    grid-area: b;
+    background-color: white;
+}
+
+@media screen and (min-width: 1024px) {
+    #container{
+        grid-template-areas:
+            "p p p p"
+            ". . . ."
+            "b b b b"
+        ;
+    }
+}
