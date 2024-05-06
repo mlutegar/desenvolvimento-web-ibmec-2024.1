@@ -5,9 +5,28 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Title</title>
     <script src="feminino.js"></script>
-    <script src="script.js"></script>
+    <script src="script.js" defer></script>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
+    <div style="display: flex">
+        <div>
+            <table id="tabela">
+                <tr>
+                    <td>Nome</td>
+                </tr>
+            </table>
+        </div>
+
+        <!--Um input em que a pessoa pesquisa o nome da pessoa e aparece um card-->
+        <div>
+            <input type="text" id="nome" placeholder="Digite o nome">
+            <button onclick="criarCardPorNome()" id="pesquisar">Pesquisar</button>
+        </div>
+
+        <div class="conteudo">
+        </div>
+    </div>
 </body>
 </html>
